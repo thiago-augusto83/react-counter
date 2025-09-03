@@ -1,12 +1,32 @@
-# React + Vite
+# React Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable counter component built with React, featuring increment and decrement functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
+This project was developed as part of a learning journey in React.  
+It simulates a real-world workflow, following best practices such as semantic commits, clean code, and proper documentation.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Increment value (+)
+- Decrement value (–)
+- Prevents value from going below zero
+- Real-time value update
+
+---
+
+## 🛠️ Technologies Used
+- [React](https://react.dev/)  
+- [Vite](https://vitejs.dev/)  
+- [Git](https://git-scm.com/) + [GitHub](https://github.com/)
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/SEU-USUARIO/react-counter.git
