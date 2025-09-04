@@ -1,9 +1,9 @@
 import styles from "./Count.module.css";
 
-const Count = () => {
+const Count = ({ value }) => {
   return (
     <>
-      <span className={styles.count}>42</span>
+      <span className={styles.count}>{value}</span>
     </>
   );
 };
