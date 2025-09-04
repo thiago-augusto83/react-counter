@@ -1,9 +1,10 @@
 import { Counter } from "./components/Counter";
+import styles from "./App.module.css";
 
 const App = () => {
   return (
     <>
-      <main>
+      <main className={styles.app}>
         <Counter />
       </main>
     </>
