@@ -1,7 +1,9 @@
+import styles from "./Counter.module.css";
+
 const Counter = () => {
   return (
     <>
-      <div></div>
+      <div className={styles.counter}></div>
     </>
   );
 };
